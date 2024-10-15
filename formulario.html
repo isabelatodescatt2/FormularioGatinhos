@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+        <div>
+            <h1>Formulário para adoção de gatos</h1>
+            <h4><i>Adote seu gatinho!</i></h4>
+        </div>
+
+
+    <!-- contato -->
+    <section class="contato">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+
+        <br><label for="email">Seu email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+        <br><label for="celular">Telefone:</label>
+        <input type="tel" id="celular" name="celular" placeholder="(XX) XXXX-XXXX">
+    </section>
+
+
+    <!-- residência -->
+    <section class="perguntas">
+        <p>Qual o tamanho da sua residência?</p>
+        <div class="residencia">
+            <input type="radio" id="Apartamento pequeno" name="residencia" value="Apartamento pequeno">
+            <label for="Apartamento pequeno">Apartamento pequeno</label>
+        </div>
+        <div class="residencia">
+            <input type="radio" id="Apartamento médio" name="residencia" value="Apartamento médio">
+            <label for="Apartamento médio">Apartamento médio</label>
+        </div>
+        <div class="residencia">
+            <input type="radio" id="Casa com quintal" name="residencia" value="Casa com quintal">
+            <label for="Casa com quintal">Casa com quintal</label>
+        </div>
+        <div class="residencia">
+            <input type="radio" id="Outro" name="residencia" value="Outro">
+            <label for="Outro">Outro</label>
+        </div>
+    </section>
+
+
+
+    <!-- experiência -->
+    <section class="perguntas">
+        <p>Você já teve experiência com cuidar de gatos antes?</p>
+        <div>
+            <input type="radio" id="SimExperiente" name="experiencia" value="tem muito conhecimento sobre cuidados de gatos">
+            <label for="SimExperiente">Sim, tenho muito conhecimento sobre cuidados de gatos</label>
+        </div>
+        <div>
+            <input type="radio" id="SimSuficiente" name="experiencia" value="tem experiência, já teve gato(s) anteriormente">
+            <label for="SimSuficiente">Sim, já tive gato(s) anteriormente</label>
+        </div>
+        <div>
+            <input type="radio" id="NaoAprender" name="experiencia" value="não tem experiência, mas está disposto(a) a aprender">
+            <label for="NaoAprender">Não, mas estou disposto(a) a aprender</label>
+        </div>
+    </section>
+
+
+
+    <!-- idade -->
+    <section class="perguntas">
+        <p>Qual a idade do gato que você prefere?</p>
+        <div>
+            <input type="radio" id="Filhote" name="idade" value="têm preferência para gatos filhotes">
+            <label for="Filhote">Filhote (até 1 ano)</label>
+        </div>
+        <div>
+            <input type="radio" id="Jovem" name="idade" value="têm preferência para gatos jovens">
+            <label for="Jovem">Jovem (1 a 5 anos)</label>
+        </div>
+        <div>
+            <input type="radio" id="Adulto" name="idade" value="têm preferência para gatos adultos">
+            <label for="Adulto">Adulto (5 a 10 anos)</label>
+        </div>
+        <div>
+            <input type="radio" id="Sênior" name="idade" value="têm preferência para gatos sêniors">
+            <label for="Sênior">Sênior (acima de 10 anos)</label>
+        </div>
+        <div>
+            <input type="radio" id="SemPreferência" name="idade" value="não têm preferência">
+            <label for="SemPreferência">Sem preferência</label>
+        </div>
+    </section>
+
+
+
+    <!-- sexo -->
+    <section class="perguntas">
+        <p>Qual o sexo do gato que você prefere?</p>
+        <div>
+            <input type="radio" id="Macho" name="sexo" value="prefere um gato macho">
+            <label for="Macho">Macho</label>
+        </div>
+        <div>
+            <input type="radio" id="Fêmea" name="sexo" value="prefere um gato fêmea">
+            <label for="Fêmea">Fêmea</label>
+        </div>
+        <div>
+            <input type="radio" id="SemPreferênciaSexo" name="sexo" value="não têm preferência">
+            <label for="SemPreferênciaSexo">Sem Preferência</label>
+        </div>
+    </section>
+
+
+    <!-- confirmar -->
+    <section>
+        <div>
+            <input type="checkbox" id="Confirmar" name="Confirmar" value="Confirmar">
+            <label for="Confirmar">Confirmo minhas respostas</label>
+            <div class="button-container">
+                <button type="button" onclick="Enviar()" value="Exibir alert">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

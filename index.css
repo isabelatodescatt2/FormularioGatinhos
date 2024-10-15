@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Glyker';
+  src: url('Gliker-Regular.ttf');
+  font-style: normal;
+}
+
+body{
+    background-color: #faf8f1;
+}
+
+
+/* NAVBAR */
+.NavbarItems button {
+    margin-top: 32px;
+    background-color: #faf8f1;
+    color: #422d5a;
+    padding: 4px 6px;
+    border: none;
+    border-radius:2px;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: medium;
+}
+
+.NavbarItems button:hover {
+  text-decoration: underline;
+}
+
+.Navbar{
+    display: flex;
+    padding: 16px;
+    margin-left:auto;
+    box-shadow: bottom 100px rgba(0, 0, 0, 0.5);
+
+}
+
+.NavbarItems {
+    display:flex;
+    
+  }
+
+.NavbarLink {
+  padding-right: 8px;
+}
+
+.NavbarItems--right {
+    margin-left:auto;
+    margin-top: -1%;
+    box-shadow: #000000 10px;
+  }
+
+.logo {
+    width: 220px;
+}
+
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: flex-end;
+  background-color: #422d5a;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container3 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+}
+
+.slogan {
+  color: #faf8f1;
+  font-size: 50px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: left;
+  margin-top: -15px;
+}
+
+.gatoInicio {
+  width: auto;
+  height: auto;
+}
+
+.sloganGeral {
+  margin-top: 0px;
+}
+
+.nossaLoja {
+  margin-top: 100px;
+  font-family: 'Glyker';
+  font-size: 40px;
+  color: #422d5a;
+  text-align: center;
+}
+
+/* negocinho de passar pro lado */
+.slideContent{
+  margin: 0px 40px;
+}
+.card{
+  border-radius: 20px;
+  background-color: #422d5a;
+}
+
+.cardImage{
+  position: relative;
+  height: 300px;
+  width: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  padding-bottom: 20px;
+}
+
+.cardImage .cardImg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+}
+
+.cardTitle{
+  color: #faf8f1;
+  font-size: 50px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  padding-top: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
